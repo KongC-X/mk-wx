@@ -1,0 +1,13 @@
+<view class="header">
+  <input type="text" class="header-input" placeholder="NodeJS·MongoDB·JavaScript" placeholder-class="header-input-placeholder" bindinput="handleInputChange"></input>
+  <icon type="search" class="header-input-icon" size="13" wx:if="{{showIcon}}" />
+</view>
+<view class="navigator">
+  <view wx:for="{{tabs}}" wx:key="type" class="navigator-item" data-type="{{item.type}}" bindtap="changeType">
+    <image class="navigator-img" src="../../resources/{{item.type}}.png" />
+    {{item.name}}
+    <view hidden="{{type !== item.type}}" class="navigator-active navigator-active-{{item.type}}" />
+  </view>
+</view>
+<include src="./recommend.wxml" />
+<include src="./activity.wxml" />

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/hot/hot",
+    "pages/person/person",
+    "pages/shop/shop",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "慕课网",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#B7BBBF",
+    "selectedColor": "#2B333B",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./resources/home.png",
+        "selectedIconPath": "./resources/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "./resources/cart.png",
+        "selectedIconPath": "./resources/cart-active.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "iconPath": "./resources/my.png",
+        "selectedIconPath": "./resources/my-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

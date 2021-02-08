@@ -1,0 +1,5 @@
+.detail {
+  margin: 100rpx;
+  text-align: center;
+  color: #ccc;
+}

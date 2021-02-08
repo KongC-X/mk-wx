@@ -1,0 +1,1 @@
+<view class="detail">detail page, id is {{id}}</view>
